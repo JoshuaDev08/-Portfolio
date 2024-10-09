@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/mesh.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="nav-container">
+        <div class="left-navbar">
+          <img src="./assets/images/PortFolio logo.png" alt="logo" width="45px" height="45px" />
+          <h3>My Portfolio</h3>
+        </div>
+        <div class="right-navbar">
+          <div class="navbar-list">
+            <a href="#hero">
+              <i class='bx bx-home'></i>
+              <span>Home</span>
+            </a>
+          </div>
+          <div class="navbar-list">
+            <a href="#aboutMe">
+              <i class='bx bx-user'></i>
+              <span>About</span>
+            </a>
+          </div>
+          <div class="navbar-list">
+            <a href="#projects">
+              <i class='bx bx-folder'></i>
+              <span>Projects</span>
+            </a>
+          </div>
+          <div class="navbar-list">
+            <a href="#skills">
+              <i class='bx bx-cog'></i>
+              <span>Skills</span>
+            </a>
+          </div>
+          <div class="navbar-list">
+            <a href="#Services">
+              <i class='bx bx-briefcase'></i>
+              <span>Services</span>
+            </a>
+          </div>
+          <div class="navbar-list contact">
+            <a href="#contact-me">
+              <i class='bx bx-envelope'></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+          <i class='bx bx-menu'></i>
+          <i class='bx bx-x'></i>
+        </div>
+      </nav>
+    </section>
+    
+    
+
+    <section id="hero">
+      <div class="gradient-bg">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="10"
+                result="blur"
+              />
+              <feColorMatrix
+                in="blur"
+                mode="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                result="goo"
+              />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+        <div class="gradients-container">
+          <div class="g1"></div>
+          <div class="g2"></div>
+          <div class="g3"></div>
+          <div class="g4"></div>
+          <div class="g5"></div>
+          <div class="interactive"></div>
+        </div>
+      </div>
+      <div class="container-hero">
+        <div class="hero-left">
+          <div class="text-hero">
+            <h1>Hello, I'm <br /><span>Joshua Magnaye</span></h1>
+            <p>
+              I Freelance <span>UI/UX Designer</span> and
+              <span>Web Developer</span>
+              based on Alabang, Philippines. I strives to build immersive and
+              beautiful web applications through carefully crafted code and
+              user-centric design.
+            </p>
+            <div class="button">
+              <p>Say Hello!</p>
+            </div>
+          </div>
+          <div class="features-hero">
+            <div class="features-container">
+              <h3>1 y.</h3>
+              <p>Learning</p>
+            </div>
+            <div class="features-container">
+              <h3>16</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="features-container">
+              <h3>1</h3>
+              <p>happy Client</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="image-container">
+            <img src="./assets/images/Profiles-Photoroom.png" alt="Profile" />
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <section id="aboutMe">
+        <div class="Aboutme-container">
+          <div class="Am-cointiner">
+            <div class="AM-images">
+              <img src="./assets/images/Profile.jpg" alt="Profile" />
+              <div class="logo-link">
+                <div class="facebook AM-box">
+                  <i class="bx bxl-facebook"><a href=""></a></i>
+                  <a href=""></a>
+                </div>
+                <div class="instagram AM-box">
+                  <i class="bx bxl-instagram"><a href=""></a></i>
+                </div>
+                <div class="github AM-box">
+                  <i class="bx bxl-github"><a href=""></a></i>
+                </div>
+                <div class="linkedin AM-box">
+                  <i id="linkin" class="bx bxl-linkedin-square"><a href=""></a></i>
+                </div>
+                <div class="tiktok AM-box">
+                  <i class='bx bxl-gmail' ><a href=""></a></i>
+                </div>
+              </div>
+            </div>
+            <div class="text-aboutMe">
+              <h1>I am Professional User Experience Designer</h1>
+              <p class="text1">
+                I design and develop services for customers specializing creating
+                stylish, modern websites, web services and online stores. My
+                passion is to design digital user experiences.
+              </p>
+              <p class="text2">
+                I design and develop services for customers specializing creating
+                stylish, modern websites, web services.
+              </p>
+              <div class="btn-AM">
+                <div class="button-project">
+                  <div>
+                    <button class="button-proj" data-target="#projects">My Project</button>
+                  </div>
+                  <div class="cv-container">
+                    <i class="bx bx-download"></i>
+                    <button class="button-cv">Download CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+    <section id="Work-process">
+      <div class="wp-container">
+        <div class="wp-box">
+          <div class="wp-text">
+            <h1 class="wp-header">Work Process</h1>
+            <p>
+              My work process follows a structured approach that starts with thorough research to understand the problem or project requirements. I then move into the design phase, where I create solutions or prototypes based on the insights gathered. Afterward, 
+              I carefully analyze the designs to identify any potential improvements or issues.
+            </p>
+            <p>
+              Finally, I launch the finished product or solution, ensuring it meets the desired objectives and performs as expected. 
+              Each step is critical to delivering a well-rounded and effective result.
+            </p>
+          </div>
+          <div class="wp-process">
+            <div class="first-process">
+              <div class="wp-research box">
+                <div class="logo-box">
+                  <i class="bx bxs-notepad"></i>
+                </div>
+                <h3>1. Research</h3>
+                <p>
+                  Follows a structured approach that starts with thorough research to understand the problem.
+                </p>
+              </div>
+              <div class="wp-design box ">
+                <div class="logo-box">
+                  <i class="bx bxs-pencil"></i>                  
+                </div>
+                <h3>2. Design</h3>
+                <p>
+                  Create solutions or prototypes based on the insights gathered.
+                </p>
+              </div>
+            </div>
+            <div class="second-process">
+              <div class="wp-analyze box" >
+                <div class="logo-box">
+                  <i class="bx bx-stats"></i>   
+                </div>
+                <h3>3. Analyze</h3>
+                <p>
+                  Analyze the designs to identify any potential improvements or issues.
+                </p>
+              </div>
+              <div class="wp-launch box">
+                <div class="logo-box">
+                  <i class="bx bxs-rocket"></i>  
+                </div>
+                <h3>4. Launch</h3>
+                <p>
+                  Launch the finished product ensuring meets the desired objectives and performs as expected.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="project-container">
+        <div class="project-box">
+          <div class="text-header">
+            <h1>Projects</h1>
+            <p>There are many variations of passages of Lorem Ipsum available,
+              <br>but the majority have suffered alteration.</p>
+          </div>
+          <div class="articles-container">
+            <div class="all-projects-box">
+              <img src="./assets/images/Untitled.png" alt="capital">
+              <small>Frontend and Backend</small>
+              <h2>Checking capital</h2>
+              <p>I developed a system using Node.js and Express.js to verify country codes by checking their corresponding capitals in a database.</p>
+              <button>Case study<i class='bx bxs-chevrons-right'></i></button>
+            </div>
+            <div class="all-projects-box">
+              <img src="./assets/images/family tracker.png" alt="">
+              <small>Frontend and Backend</small>
+              <h2>Country Tracker</h2>
+              <p>I created a country tracker system using the backend architecture with Node.js and Express.js to manage and retrieve information about various countries.</p>
+              <button>Case study<i class='bx bxs-chevrons-right'></i></button>
+            </div>
+            <div class="all-projects-box">
+              <img src="./assets/images/permalist.png" alt="">
+              <small>Frontend and Backend</small>
+              <h2>Permalist</h2>
+              <p>I built a permalist system using HTTP protocols and databases for managing persistent data efficiently.</p>
+              <button>Case study<i class='bx bxs-chevrons-right'></i></button>
+            </div>
+            <div class="all-projects-box">
+              <img src="./assets/images/drum kit.png" alt="">
+              <small>Frontend</small>
+              <h2>Drum Kit</h2>
+              <p>I developed a drum kit application that plays sounds when keys are pressed or clicked.</p>
+              <button>Case study<i class='bx bxs-chevrons-right'></i></button>
+            </div>
+            <div class="all-projects-box">
+              <img src="./assets/images/flags.png" alt="">
+              <small>Frontend and Backend</small>
+              <h2>Country Code</h2>
+              <p>I created an alternative country code verification system that checks codes against a database of countries.</p>
+              <button>Case study<i class='bx bxs-chevrons-right'></i></button>
+            </div>
+            <div class="all-projects-box">
+              <img src="./assets/images/blogs.png" alt="">
+              <small>Frontend</small>
+              <h2>Blogs</h2>
+              <p>I built a simple blog frontend using HTTP protocols for data fetching and display.</p>
+              <button>Case study<i class='bx bxs-chevrons-right'></i></button>
+            </div>
+            
+          </div>  
+          <button class="button-projects">More Projects</button>        
+        </div>
+      </div> 
+    </section>
+
+    <section id="skills">
+      <div class="skills-container">
+        <div class="skills-box">
+          <h1>Skills</h1>
+          <p>Here are some of my key technical skills:</p>
+       
+          <div class="skillsboxes-FE">
+            <div class="skill-row">  
+              <i class='html logo bx bxl-html5'></i>           
+              <h3 class="skill-title"></i>HTML</h3>
+              <div class="progress-bar">
+                <div class="progress" data-percent="80%"></div>    
+              </div>
+              <div class="percent-display">0% </div>
+            </div>
+            <div class="skill-row">  
+              <i class='css bx bxl-css3' ></i>          
+              <h3 class="skill-title"></i>CSS</h3>
+              <div class="progress-bar">
+                <div class="progress" data-percent="70%"></div>    
+              </div>
+              <div class="percent-display">0% </div>
+            </div>
+            <div class="skill-row">  
+              <i class='javascript bx bxl-javascript' ></i>         
+              <h3 class="skill-title"></i>JAVASCRIPT</h3>
+              <div class="progress-bar">
+                <div class="progress" data-percent="60%"></div>    
+              </div>
+              <div class="percent-display">0% </div>
+            </div>
+            <div class="skill-row">  
+              <i class=' react bx bxl-react' ></i>           
+              <h3 class="skill-title"></i>REACT</h3>
+              <div class="progress-bar">
+                <div class="progress" data-percent="40%"></div>    
+              </div>
+              <div class="percent-display">0% </div>
+            </div>
+            <div class="skill-row">  
+              <i class='sql bx bxl-postgresql' ></i>         
+              <h3 class="skill-title"></i>Postgres SQL</h3>
+              <div class="progress-bar">
+                <div class="progress" data-percent="60%"></div>    
+              </div>
+              <div class="percent-display">0% </div>
+            </div>
+            <div class="skill-row">  
+              <i class='nodejs bx bxl-nodejs' ></i>      
+              <h3 class="skill-title"></i>Node JS</h3>
+              <div class="progress-bar">
+                <div class="progress" data-percent="50%"></div>    
+              </div>
+              <div class="percent-display">0% </div>
+            </div>
+     
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="commercial">
+      <div class="com-container">
+        <div class="com-box">
+          <h1>Do you have Project idea?<br>Let's Discuss your project</h1>
+          <p>There are many ideas i want to share with you</p>
+          <button data-target="#contact-me">Lets work together<i class='bx bx-chevrons-right' ></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="Services">
+      <div class="services-container">
+        <div class="services-box">       
+        <div class="text-services">
+          <h1>What i do?</h1>
+          <p class="text1">As a freelancer, I offer a complete range of services including UX (user experience) design to ensure user-friendly interactions, </p>
+          <p class="text2">UI (user interface) design to create visually appealing layouts, and full web development to bring your ideas to life with functional, responsive websites.</p>
+          
+        </div>
+        <div class="services-boxes">
+          <div class="content box-1">
+            <h2>User Experience (UX)</h2>
+            <p>Enhances user satisfaction by focusing on usability, accessibility, and seamless interactions.</p>
+          </div>
+          <div class="content box-2">
+            <h2>User interface (UI)</h2>
+            <p>Focuses on creating visually appealing and intuitive interfaces through layout, color, and design elements.</p>
+          </div>
+          <div class="content box-3">
+            <h2>Web Development</h2>
+            <p>Builds and implements functional, responsive websites using code to bring the design to life.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="contact-me">
+      <div class="contact-container">
+        <div class="contact-box">
+          <div class="address-details">
+            <h1>Let's Discuss Your Project</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            <div class="address-box">
+              <div class="icon-container">
+                <i class='bx bx-map'></i>
+              </div>
+              <div>
+                <h3>Address:</h3>
+                <p>Quezon Province, Philippines 4325</p>
+              </div>
+            </div>
+            <div class="address-box">
+              <div class="icon-container">
+                <i class='bx bxs-envelope'></i>
+              </div>
+              <div>
+                <h3>Email:</h3>
+                <p>magnayesxcz08@gmail.com</p>
+              </div>
+            </div>
+            <div class="address-box">
+              <div class="icon-container">
+                <i class='bx bxs-phone-call'></i>
+              </div>
+              <div>
+                <h3>Phone:</h3>
+                <p>+63 912 345 6789</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-contact">
+            <form action="" method="post">
+            <div class="form-group">
+              <input type="text" id="name" required placeholder=" " />
+              <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required placeholder=" " />
+              <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="location" required placeholder=" " />
+              <label for="location">Location</label>
+            </div>
+            <div class="budget">
+              <div class="form-group">
+                <input type="number" id="budget" required placeholder=" " />
+                <label for="budget">Budget</label>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" required placeholder=" " />
+                <label for="subject">Subject</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea id="message" required placeholder=" "></textarea>
+              <label for="message">Message</label>
+            </div>
+            <button type="submit">Submit<i class='bx bxs-chevrons-right'></i></button>
+          </form>
+          </div>  
+                  
+          
+        </div>
+      </div>
+      <footer id="footerist">
+        <div class="footer">
+          <div class="footer-container">
+            <small>copyright © 2024 Joshua</small>
+          </div>
+        </div>
+      </footer>
+    </section>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
