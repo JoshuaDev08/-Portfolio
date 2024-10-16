@@ -138,8 +138,6 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const skillsSection = document.getElementById('skills');
     const skillRows = document.querySelectorAll('.skill-row');
@@ -246,28 +244,28 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   // Select all sections and navbar links
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll(".navbar-list a");
+// const sections = document.querySelectorAll("section");
+// const navLinks = document.querySelectorAll(".navbar-list a");
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    const id = entry.target.getAttribute("id");
-    const link = document.querySelector(`.navbar-list a[href="#${id}"]`);
+// const observer = new IntersectionObserver((entries) => {
+//   entries.forEach(entry => {
+//     const id = entry.target.getAttribute("id");
+//     const link = document.querySelector(`.navbar-list a[href="#${id}"]`);
 
-    if (entry.isIntersecting) {
-      // Remove 'active' from all links
-      navLinks.forEach(link => link.classList.remove("active"));
-      // Add 'active' class to the corresponding link
-      link.classList.add("active");
-    }
-  });
-}, {
-  threshold: 0.6 // Trigger when 60% of the section is in view
-});
+//     if (entry.isIntersecting) {
+//       // Remove 'active' from all links
+//       navLinks.forEach(link => link.classList.remove("active"));
+//       // Add 'active' class to the corresponding link
+//       link.classList.add("active");
+//     }
+//   });
+// }, {
+//   threshold: 0.6 // Trigger when 60% of the section is in view
+// });
 
-// Observe each section
-sections.forEach(section => {
-  observer.observe(section);
-});
+// // Observe each section
+// sections.forEach(section => {
+//   observer.observe(section);
+// });
 
   
