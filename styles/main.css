@@ -95,7 +95,9 @@ html {
 
 .active {
   border-radius: 2px;
-  border-bottom-color: #a53dff;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 60px #b3b3b3,
+             -20px -20px 60px #ffffff;
 }
 
 
